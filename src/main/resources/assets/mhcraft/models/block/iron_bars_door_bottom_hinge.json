@@ -1,0 +1,7 @@
+{
+  "parent": "minecraft:block/door_bottom_rh",
+  "textures": {
+    "top": "mhcraft:block/iron_bars_door_bottom",
+    "bottom": "mhcraft:block/iron_bars_door_bottom"
+  }
+}

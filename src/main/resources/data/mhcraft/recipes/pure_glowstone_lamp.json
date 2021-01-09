@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " R ",
+    "RGR",
+    " R "
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:iron_ingot"
+    },
+    "G": {
+      "item": "mhcraft:pure_glowstone"
+    }
+  },
+  "result": {
+    "item": "mhcraft:pure_glowstone_lamp"
+  }
+}

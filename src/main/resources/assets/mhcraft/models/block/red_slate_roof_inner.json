@@ -1,0 +1,8 @@
+{
+  "parent": "mhcraft:block/inner_roof",
+  "textures": {
+    "bottom": "mhcraft:block/red_slate_block",
+    "top": "mhcraft:block/red_slate_block",
+    "side": "mhcraft:block/red_slate_block"
+  }
+}

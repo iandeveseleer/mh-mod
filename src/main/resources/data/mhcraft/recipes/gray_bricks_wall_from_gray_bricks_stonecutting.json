@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "mhcraft:gray_bricks"
+  },
+  "result": "mhcraft:gray_bricks_wall",
+  "count": 1
+}

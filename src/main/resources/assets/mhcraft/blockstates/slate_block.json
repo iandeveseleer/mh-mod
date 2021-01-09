@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mhcraft:block/slate_block"
+    }
+  }
+}

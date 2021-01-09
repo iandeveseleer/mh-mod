@@ -31,3 +31,6 @@ bin/
 # fabric
 
 run/
+/assets_1.16.4/
+/venv/
+/assets_20w51a/

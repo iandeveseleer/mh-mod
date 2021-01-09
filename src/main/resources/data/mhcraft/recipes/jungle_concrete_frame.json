@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "LWL",
+    "LWL",
+    "LWL"
+  ],
+  "key": {
+    "L": {
+      "item": "minecraft:jungle_log"
+    },
+    "W": {
+      "item": "minecraft:white_concrete_powder"
+    }
+  },
+  "result": {
+    "item": "mhcraft:jungle_concrete_frame"
+  }
+}

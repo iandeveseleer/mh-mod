@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "mhcraft:block/red_slate_block",
+    "top": "mhcraft:block/red_slate_block",
+    "side": "mhcraft:block/red_slate_block"
+  }
+}

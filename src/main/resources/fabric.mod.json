@@ -1,35 +1,33 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
+  "id": "mhcraft",
   "version": "${version}",
 
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
+  "name": "MHCraft",
+  "description": "Mod for Marxist Hustlers server",
   "authors": [
-    "Me!"
+    "SNR"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://mc.marxisthustlers.org/"
   },
 
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
+  "license": "Apache-2.0",
+  "icon": "assets/mhcraft/icon.png",
 
   "environment": "*",
   "entrypoints": {
+    "client": [
+      "fr.slashandroses.mhcraft.client.MHCraftClient"
+    ],
     "main": [
-      "net.fabricmc.example.ExampleMod"
+      "fr.slashandroses.mhcraft.MHCraft"
     ]
   },
-  "mixins": [
-    "modid.mixins.json"
-  ],
 
   "depends": {
     "fabricloader": ">=0.7.4",
-    "fabric": "*",
-    "minecraft": "1.16.x"
+    "fabric": "*"
   },
   "suggests": {
     "another-mod": "*"

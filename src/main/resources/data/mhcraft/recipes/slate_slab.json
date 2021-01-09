@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mhcraft:slate"
+    }
+  },
+  "result": {
+    "item": "mhcraft:slate_slab",
+    "count": 3
+  }
+}

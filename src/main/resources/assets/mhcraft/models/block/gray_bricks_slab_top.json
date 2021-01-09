@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/slab_top",
+  "textures": {
+    "bottom": "mhcraft:block/gray_bricks",
+    "top": "mhcraft:block/gray_bricks",
+    "side": "mhcraft:block/gray_bricks"
+  }
+}

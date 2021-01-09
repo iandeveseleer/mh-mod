@@ -1,0 +1,33 @@
+{
+ "itemGroup.mhcraft.blocks": "MHCraft Blocks",
+ "itemGroup.mhcraft.items": "MHCraft Items",
+ "itemGroup.mhcraft.plants": "MHCraft Plants",
+
+ "block.mhcraft.charcoal_block": "Charcoal Block",
+ "block.mhcraft.flint_block": "Flint Block",
+ "block.mhcraft.sugar_block": "Sugar Block",
+ "block.mhcraft.sugar_cane_block": "Sugar Cane Block",
+ "block.mhcraft.glowstone_lamp": "Glowstone Lamp",
+ "block.mhcraft.pure_glowstone": "Pure Glowstone",
+ "block.mhcraft.pure_glowstone_lamp": "Pure Glowstone Lamp",
+ "block.mhcraft.slate_block": "Slate Block",
+ "block.mhcraft.slate_stairs": "Slate Stairs",
+ "block.mhcraft.slate_roof": "Slate Roof",
+ "block.mhcraft.slate_slab": "Slate Slab",
+ "block.mhcraft.red_slate_block": "Red Slate Block",
+ "block.mhcraft.red_slate_stairs": "Red Slate Stairs",
+ "block.mhcraft.red_slate_roof": "Red Slate Roof",
+ "block.mhcraft.red_slate_slab": "Red Slate Slab",
+ "block.mhcraft.gray_bricks": "Gray Bricks",
+ "block.mhcraft.gray_bricks_stairs": "Gray Bricks Stairs",
+ "block.mhcraft.gray_bricks_slab": "Gray Bricks Slab",
+ "block.mhcraft.gray_bricks_wall": "Gray Bricks Wall",
+
+ "block.mhcraft.iron_bars_door": "Iron Bars Door",
+
+ "item.mhcraft.slate": "Slate",
+ "item.mhcraft.red_slate": "Red Slate",
+ "item.mhcraft.gray_brick": "Gray Brick",
+ "item.mhcraft.marijuana_seeds": "Cannabis Seeds",
+ "item.mhcraft.marijuana": "Marijuana"
+}

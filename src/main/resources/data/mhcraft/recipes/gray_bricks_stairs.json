@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mhcraft:gray_bricks"
+    }
+  },
+  "result": {
+    "item": "mhcraft:gray_bricks_stairs",
+    "count": 4
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "mhcraft:block/pure_glowstone_lamp"
+    }
+  }
+}

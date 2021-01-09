@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "mhcraft:gray_brick"
+  },
+  "result": "mhcraft:slate",
+  "count": 3
+}

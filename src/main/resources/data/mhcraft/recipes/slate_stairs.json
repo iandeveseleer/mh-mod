@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "mhcraft:slate"
+    }
+  },
+  "result": {
+    "item": "mhcraft:slate_stairs",
+    "count": 4
+  }
+}

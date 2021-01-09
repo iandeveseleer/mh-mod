@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "mhcraft:red_slate"
+    }
+  },
+  "result": {
+    "item": "mhcraft:red_slate_block",
+    "count": 1
+  }
+}

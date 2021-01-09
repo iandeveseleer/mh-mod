@@ -1,0 +1,6 @@
+{
+    "parent": "block/cube_all",
+    "textures": {
+        "all": "mhcraft:block/jungle_wool_frame"
+    }
+}
