@@ -1,0 +1,6 @@
+{
+    "parent": "block/stonecutter",
+    "textures": {
+        "saw": "mhcraft:block/glasscutter_saw"
+    }
+}

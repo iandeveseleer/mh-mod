@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "mhcraft:slate_block"
+  },
+  "result": "mhcraft:slate_roof",
+  "count": 1
+}

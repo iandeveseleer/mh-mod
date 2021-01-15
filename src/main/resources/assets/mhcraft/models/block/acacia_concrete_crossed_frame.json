@@ -1,6 +1,7 @@
 {
-    "parent": "block/cube_all",
+    "parent": "mhcraft:block/crossed_frame",
     "textures": {
-        "all": "mhcraft:block/acacia_concrete_crossed_frame"
+        "log": "minecraft:block/acacia_log",
+        "concrete": "minecraft:block/white_concrete_powder"
     }
 }

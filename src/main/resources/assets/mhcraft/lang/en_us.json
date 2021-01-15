@@ -3,6 +3,10 @@
  "itemGroup.mhcraft.items": "MHCraft Items",
  "itemGroup.mhcraft.plants": "MHCraft Plants",
 
+ "menu.mhcraft.glasscutter": "Glass Cutter",
+
+ "subtitles.mhcraft.glasscutting": "Glass Cutter noise",
+
  "block.mhcraft.charcoal_block": "Charcoal Block",
  "block.mhcraft.flint_block": "Flint Block",
  "block.mhcraft.sugar_block": "Sugar Block",
@@ -22,8 +26,20 @@
  "block.mhcraft.gray_bricks_stairs": "Gray Bricks Stairs",
  "block.mhcraft.gray_bricks_slab": "Gray Bricks Slab",
  "block.mhcraft.gray_bricks_wall": "Gray Bricks Wall",
+ "block.mhcraft.oak_concrete_frame": "Oak Timber Frame",
+ "block.mhcraft.spruce_concrete_frame": "Spruce Straight Timber Frame",
+ "block.mhcraft.dark_oak_concrete_frame": "Dark Oak Straight Timber Frame",
+ "block.mhcraft.acacia_concrete_frame": "Acacia Straight Timber Frame",
+ "block.mhcraft.jungle_concrete_frame": "Jungle Straight Timber Frame",
+ "block.mhcraft.oak_concrete_crossed_frame": "Oak Timber Frame",
+ "block.mhcraft.spruce_concrete_crossed_frame": "Spruce Crossed Timber Frame",
+ "block.mhcraft.dark_oak_concrete_crossed_frame": "Dark Oak Crossed Timber Frame",
+ "block.mhcraft.acacia_concrete_crossed_frame": "Acacia Crossed Timber Frame",
+ "block.mhcraft.jungle_concrete_crossed_frame": "Jungle Crossed Timber Frame",
 
  "block.mhcraft.iron_bars_door": "Iron Bars Door",
+
+ "block.mhcraft.glasscutter": "Glass Cutter",
 
  "item.mhcraft.slate": "Slate",
  "item.mhcraft.red_slate": "Red Slate",

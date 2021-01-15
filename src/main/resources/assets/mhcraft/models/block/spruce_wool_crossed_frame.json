@@ -1,6 +1,0 @@
-{
-    "parent": "block/cube_all",
-    "textures": {
-        "all": "mhcraft:block/spruce_wool_crossed_frame"
-    }
-}

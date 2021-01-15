@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "group": "frames",
+  "ingredients": [
+    {
+      "item": "mhcraft:spruce_concrete_crossed_frame"
+    }
+  ],
+  "result": {
+    "item": "mhcraft:spruce_concrete_frame",
+    "count": 1
+  }
+}

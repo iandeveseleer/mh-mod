@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mhcraft:block/glasscutter",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mhcraft:block/glasscutter"
+    },
+    "facing=south": {
+      "model": "mhcraft:block/glasscutter",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mhcraft:block/glasscutter",
+      "y": 270
+    }
+  }
+}

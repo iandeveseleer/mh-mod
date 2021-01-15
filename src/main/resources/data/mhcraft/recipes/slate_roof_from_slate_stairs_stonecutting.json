@@ -1,8 +1,0 @@
-{
-  "type": "minecraft:stonecutting",
-  "ingredient": {
-    "item": "mhcraft:slate_stairs"
-  },
-  "result": "mhcraft:slate_roof",
-  "count": 1
-}

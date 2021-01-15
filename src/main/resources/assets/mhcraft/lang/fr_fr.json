@@ -3,6 +3,10 @@
   "itemGroup.mhcraft.items": "Objets MHCraft",
   "itemGroup.mhcraft.plants": "Plantes MHCraft",
 
+  "menu.mhcraft.glasscutter": "Coupe verre",
+
+  "subtitles.mhcraft.glasscutting": "Bruit de découpage de verre",
+
   "block.mhcraft.charcoal_block": "Bloc de charbon de bois",
   "block.mhcraft.flint_block": "Bloc de silex",
   "block.mhcraft.sugar_block": "Bloc de sucre",
@@ -12,18 +16,28 @@
   "block.mhcraft.pure_glowstone_lamp": "Lampe de pierre lumineuse pure",
   "block.mhcraft.slate_block": "Bloc d'ardoises",
   "block.mhcraft.slate_stairs": "Escalier en ardoises",
-  "block.mhcraft.slate_roof": "Toiture en ardoises",
   "block.mhcraft.slate_slab": "Dalle en ardoises",
   "block.mhcraft.red_slate_block": "Bloc de tuiles rouges",
   "block.mhcraft.red_slate_stairs": "Escalier en tuiles rouges",
-  "block.mhcraft.red_slate_roof": "Toiture en tuiles rouges",
   "block.mhcraft.red_slate_slab": "Dalle en tuiles rouges",
   "block.mhcraft.gray_bricks": "Briques grises",
   "block.mhcraft.gray_bricks_stairs": "Escalier en briques grises",
   "block.mhcraft.gray_bricks_slab": "Dalle en briques grises",
   "block.mhcraft.gray_bricks_wall": "Mur en briques grises",
+  "block.mhcraft.oak_concrete_frame": "Colombage droit en chêne",
+  "block.mhcraft.spruce_concrete_frame": "Colombage droit en sapin",
+  "block.mhcraft.dark_oak_concrete_frame": "Colombage droit en chêne noir",
+  "block.mhcraft.acacia_concrete_frame": "Colombage droit en acacia",
+  "block.mhcraft.jungle_concrete_frame": "Colombage droit en acajou",
+  "block.mhcraft.oak_concrete_crossed_frame": "Colombage croisé en chêne",
+  "block.mhcraft.spruce_concrete_crossed_frame": "Colombage croisé en sapin",
+  "block.mhcraft.dark_oak_concrete_crossed_frame": "Colombage croisé en chêne noir",
+  "block.mhcraft.acacia_concrete_crossed_frame": "Colombage croisé en acacia",
+  "block.mhcraft.jungle_concrete_crossed_frame": "Colombage croisé en acajou",
 
   "block.mhcraft.iron_bars_door": "Porte en barreaux de fer",
+
+  "block.mhcraft.glasscutter": "Coupe verre",
 
   "item.mhcraft.slate": "Ardoise",
   "item.mhcraft.red_slate": "Tuile rouge",

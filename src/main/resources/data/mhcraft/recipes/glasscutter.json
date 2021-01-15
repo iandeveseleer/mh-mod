@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " D ",
+    "###"
+  ],
+  "key": {
+    "D": {
+      "item": "minecraft:diamond"
+    },
+    "#": {
+      "item": "minecraft:stone"
+    }
+  },
+  "result": {
+    "item": "mhcraft:glasscutter"
+  }
+}

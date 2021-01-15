@@ -1,6 +1,7 @@
 {
-    "parent": "block/cube_all",
+    "parent": "mhcraft:block/frame",
     "textures": {
-        "all": "mhcraft:block/spruce_concrete_frame"
+        "log": "minecraft:block/spruce_log",
+        "concrete": "minecraft:block/white_concrete_powder"
     }
 }
