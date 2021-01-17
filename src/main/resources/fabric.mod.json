@@ -28,7 +28,7 @@
     "mhcraft.mixins.json"
   ],
 
-  "accessWidener" : "glasscutter.accesswidener",
+  "accessWidener" : "mhcraft.accesswidener",
 
   "depends": {
     "fabricloader": ">=0.7.4",

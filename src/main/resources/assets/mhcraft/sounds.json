@@ -4,6 +4,46 @@
     "sounds": [
       "mhcraft:glasscutting"
     ]
+  },
+  "bleucadavre": {
+    "category": "records",
+    "subtitle": "subtitles.mhcraft.enattendantallotropique",
+    "sounds": [
+      {
+        "name": "mhcraft:disc/bleucadavre",
+        "stream": true
+      }
+    ]
+  },
+  "nazareth": {
+    "category": "records",
+    "subtitle": "subtitles.mhcraft.enattendantallotropique",
+    "sounds": [
+      {
+        "name": "mhcraft:disc/nazareth",
+        "stream": true
+      }
+    ]
+  },
+  "en_berline": {
+    "category": "records",
+    "subtitle": "subtitles.mhcraft.enattendantallotropique",
+    "sounds": [
+      {
+        "name": "mhcraft:disc/en_berline",
+        "stream": true
+      }
+    ]
+  },
+  "adebisi": {
+    "category": "records",
+    "subtitle": "subtitles.mhcraft.enattendantallotropique",
+    "sounds": [
+      {
+        "name": "mhcraft:disc/adebisi",
+        "stream": true
+      }
+    ]
   }
 }
 
