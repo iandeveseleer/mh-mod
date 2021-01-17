@@ -13,46 +13,46 @@ public class BlockRegistry {
 
 
     // Blocks
-    public static Block CHARCOAL_BLOCK = new Block(FabricBlockSettings.of(Material.STONE, MapColor.BLACK).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
-    public static Block FLINT_BLOCK = new Block(FabricBlockSettings.of(Material.STONE, MapColor.GRAY).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block CHARCOAL_BLOCK = new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block FLINT_BLOCK = new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.GRAY).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
     public static Block SUGAR_BLOCK = new FallingBlock(FabricBlockSettings.of(Material.ORGANIC_PRODUCT).breakByHand(true).strength(0.8F, 0.8F).sounds(BlockSoundGroup.SAND));
     public static Block SUGAR_CANE_BLOCK = new Block(FabricBlockSettings.of(Material.BAMBOO).breakByHand(true).strength(1.5F, 0.8F).sounds(BlockSoundGroup.GRASS));
     public static Block GLOWSTONE_LAMP = new Block(FabricBlockSettings.of(Material.REDSTONE_LAMP).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).luminance(15).sounds(BlockSoundGroup.METAL));
-    public static Block PURE_GLOWSTONE = new Block(FabricBlockSettings.of(Material.GLASS, MapColor.PALE_YELLOW).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).luminance(15).sounds(BlockSoundGroup.GLASS));
+    public static Block PURE_GLOWSTONE = new Block(FabricBlockSettings.of(Material.GLASS, MaterialColor.SAND).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).luminance(15).sounds(BlockSoundGroup.GLASS));
     public static Block PURE_GLOWSTONE_LAMP = new Block(FabricBlockSettings.of(Material.REDSTONE_LAMP).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).luminance(15).sounds(BlockSoundGroup.METAL));
-    public static Block SLATE_BLOCK = new Block(FabricBlockSettings.of(Material.STONE, MapColor.BLACK).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block SLATE_BLOCK = new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.BLACK).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
     public static Block SLATE_STAIRS = new BlockStairs(SLATE_BLOCK.getDefaultState(), FabricBlockSettings.copy(SLATE_BLOCK));
     public static Block SLATE_ROOF = new BlockRoof(SLATE_BLOCK.getDefaultState(), FabricBlockSettings.copy(SLATE_BLOCK));
     public static Block SLATE_SLAB = new BlockSlab(FabricBlockSettings.copy(SLATE_BLOCK));
-    public static Block RED_SLATE_BLOCK = new Block(FabricBlockSettings.of(Material.STONE, MapColor.RED).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block RED_SLATE_BLOCK = new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.RED).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
     public static Block RED_SLATE_STAIRS = new BlockStairs(RED_SLATE_BLOCK.getDefaultState(), FabricBlockSettings.copy(RED_SLATE_BLOCK));
     public static Block RED_SLATE_ROOF = new BlockRoof(RED_SLATE_BLOCK.getDefaultState(), FabricBlockSettings.copy(RED_SLATE_BLOCK));
     public static Block RED_SLATE_SLAB = new BlockSlab(FabricBlockSettings.copy(RED_SLATE_BLOCK));
-    public static Block GRAY_BRICKS = new Block(FabricBlockSettings.of(Material.REDSTONE_LAMP, MapColor.GRAY).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block GRAY_BRICKS = new Block(FabricBlockSettings.of(Material.REDSTONE_LAMP, MaterialColor.GRAY).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
     public static Block GRAY_BRICKS_STAIRS = new BlockStairs(GRAY_BRICKS.getDefaultState(), FabricBlockSettings.copy(GRAY_BRICKS));
     public static Block GRAY_BRICKS_SLAB = new BlockSlab(FabricBlockSettings.copy(GRAY_BRICKS));
 
     // Concrete frames
-    public static Block OAK_CONCRETE_FRAME = new BlockTimberFrame(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
-    public static Block SPRUCE_CONCRETE_FRAME = new BlockTimberFrame(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
-    public static Block DARK_OAK_CONCRETE_FRAME = new BlockTimberFrame(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
-    public static Block ACACIA_CONCRETE_FRAME = new BlockTimberFrame(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
-    public static Block JUNGLE_CONCRETE_FRAME = new BlockTimberFrame(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
-    public static Block OAK_CONCRETE_CROSSED_FRAME = new Block(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
-    public static Block SPRUCE_CONCRETE_CROSSED_FRAME = new Block(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
-    public static Block DARK_OAK_CONCRETE_CROSSED_FRAME = new Block(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
-    public static Block ACACIA_CONCRETE_CROSSED_FRAME = new Block(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
-    public static Block JUNGLE_CONCRETE_CROSSED_FRAME = new Block(FabricBlockSettings.of(Material.STONE, MapColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block OAK_CONCRETE_FRAME = new BlockTimberFrame(FabricBlockSettings.of(Material.STONE, MaterialColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block SPRUCE_CONCRETE_FRAME = new BlockTimberFrame(FabricBlockSettings.of(Material.STONE, MaterialColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block DARK_OAK_CONCRETE_FRAME = new BlockTimberFrame(FabricBlockSettings.of(Material.STONE, MaterialColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block ACACIA_CONCRETE_FRAME = new BlockTimberFrame(FabricBlockSettings.of(Material.STONE, MaterialColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block JUNGLE_CONCRETE_FRAME = new BlockTimberFrame(FabricBlockSettings.of(Material.STONE, MaterialColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block OAK_CONCRETE_CROSSED_FRAME = new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block SPRUCE_CONCRETE_CROSSED_FRAME = new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block DARK_OAK_CONCRETE_CROSSED_FRAME = new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block ACACIA_CONCRETE_CROSSED_FRAME = new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block JUNGLE_CONCRETE_CROSSED_FRAME = new Block(FabricBlockSettings.of(Material.STONE, MaterialColor.WHITE).breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
 
 
     // Doors, traps etc..
-    public static Block IRON_BARS_DOOR = new BlockDoor(FabricBlockSettings.of(Material.METAL, MapColor.BLACK).nonOpaque().breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.METAL));
+    public static Block IRON_BARS_DOOR = new BlockDoor(FabricBlockSettings.of(Material.METAL, MaterialColor.BLACK).nonOpaque().breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.METAL));
 
     // Tools blocks
-    public static Block GLASSCUTTER = new BlockGlassCutter(FabricBlockSettings.of(Material.METAL, MapColor.BLACK).nonOpaque().breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
+    public static Block GLASSCUTTER = new BlockGlassCutter(FabricBlockSettings.of(Material.METAL, MaterialColor.BLACK).nonOpaque().breakByHand(true).breakByTool(FabricToolTags.PICKAXES).strength(1.5F, 6.0F).sounds(BlockSoundGroup.STONE));
 
     //Plants and Crops
-    public static Block MARIJUANA_CROP = new VegetableBlock(FabricBlockSettings.of(Material.PLANT, MapColor.GREEN).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
+    public static Block MARIJUANA_CROP = new VegetableBlock(FabricBlockSettings.of(Material.PLANT, MaterialColor.GRASS).noCollision().ticksRandomly().breakInstantly().sounds(BlockSoundGroup.CROP));
 
     public static void init() {
         registerBlock(BlockNames.CHARCOAL_BLOCK, CHARCOAL_BLOCK);

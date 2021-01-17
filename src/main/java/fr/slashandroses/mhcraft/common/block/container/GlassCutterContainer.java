@@ -221,7 +221,7 @@ public class GlassCutterContainer extends ScreenHandler {
         super.close(player);
         this.output.removeStack(1);
         this.context.run((world, blockPos) -> {
-            this.dropInventory(player, this.input);
+            this.dropInventory(player, player.world, this.input);
         });
     }
 }
