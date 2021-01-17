@@ -7,8 +7,10 @@ import net.minecraft.block.BlockState;
 import net.minecraft.block.CropBlock;
 import net.minecraft.block.ShapeContext;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.item.HoeItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.ItemConvertible;
+import net.minecraft.item.ItemStack;
 import net.minecraft.util.ActionResult;
 import net.minecraft.util.Hand;
 import net.minecraft.util.hit.BlockHitResult;
@@ -49,13 +51,16 @@ public class VegetableBlock extends CropBlock {
 
     @Override
     public ActionResult onUse(BlockState state, World world, BlockPos pos, PlayerEntity player, Hand hand, BlockHitResult hit) {
-        if (getAge(state) == getMaxAge()) {
+        ItemStack mainhand = player.getMainHandStack();
+        ItemStack secondHand = player.getOffHandStack();
+        if (getAge(state) == getMaxAge() && (mainhand.getItem() instanceof HoeItem || secondHand.getItem() instanceof HoeItem)) {
             world.setBlockState(pos, this.withAge(0), 2);
             dropStacks(state, world, pos);
             return ActionResult.CONSUME;
         }
         return ActionResult.PASS;
     }
+
     public VoxelShape getOutlineShape(BlockState state, BlockView world, BlockPos pos, ShapeContext context) {
         return AGE_TO_SHAPE[state.get(this.getAgeProperty())];
     }
