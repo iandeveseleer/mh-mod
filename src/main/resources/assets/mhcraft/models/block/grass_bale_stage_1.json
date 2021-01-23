@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "mhcraft:block/grass_bale_top_stage_1",
+    "side": "mhcraft:block/grass_bale_side_stage_1"
+  }
+}

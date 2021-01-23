@@ -1,0 +1,22 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "mhcraft:block/thatch/thatch_slope",
+      "y": 270,
+      "uvlock": true
+    },
+    "facing=south": {
+      "model": "mhcraft:block/thatch/thatch_slope",
+      "y": 90,
+      "uvlock": true
+    },
+    "facing=east": {
+      "model": "mhcraft:block/thatch/thatch_slope"
+    },
+    "facing=west": {
+      "model": "mhcraft:block/thatch/thatch_slope",
+      "y": 180,
+      "uvlock": true
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+    "variants": {
+        "path_layers=1": {
+            "model": "mhcraft:block/hay_path/hay_path_1"
+        },
+        "path_layers=2": {
+            "model": "mhcraft:block/hay_path/hay_path_2"
+        },
+        "path_layers=3": {
+            "model": "mhcraft:block/hay_path/hay_path_3"
+        },
+        "path_layers=4": {
+            "model": "mhcraft:block/hay_path/hay_path_4"
+        },
+        "path_layers=5": {
+            "model": "mhcraft:block/hay_path/hay_path_5"
+        },
+        "path_layers=6": {
+            "model": "mhcraft:block/hay_path/hay_path_6"
+        },
+        "path_layers=7": {
+            "model": "mhcraft:block/hay_path/hay_path_7"
+        },
+        "path_layers=8": {
+            "model": "mhcraft:block/hay_path/hay_path_8"
+        },
+        "path_layers=9": {
+            "model": "mhcraft:block/hay_path/hay_path_9"
+        },
+        "path_layers=10": {
+            "model": "mhcraft:block/hay_path/hay_path_10"
+        },
+        "path_layers=11": {
+            "model": "mhcraft:block/hay_path/hay_path_11"
+        },
+        "path_layers=12": {
+            "model": "mhcraft:block/hay_path/hay_path_12"
+        },
+        "path_layers=13": {
+            "model": "mhcraft:block/hay_path/hay_path_13"
+        },
+        "path_layers=14": {
+            "model": "mhcraft:block/hay_path/hay_path_14"
+        },
+        "path_layers=15": {
+            "model": "mhcraft:block/hay_path/hay_path_15"
+        },
+        "path_layers=16": {
+            "model": "mhcraft:block/hay_path/hay_path_16"
+        }
+    }
+}

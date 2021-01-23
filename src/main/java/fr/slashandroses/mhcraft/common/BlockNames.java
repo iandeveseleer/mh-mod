@@ -20,6 +20,15 @@ public class BlockNames {
     public static final String GRAY_BRICKS_STAIRS = "gray_bricks_stairs";
     public static final String GRAY_BRICKS_SLAB = "gray_bricks_slab";
     public static final String MARIJUANA_CROP = "marijuana_crop";
+    public static final String GRASS_BALE = "grass_bale";
+    public static final String THATCH_BLOCK = "thatch";
+    public static final String THATCH_BLOCK_SLAB = "thatch_slab";
+    public static final String THATCH_BLOCK_STAIRS = "thatch_stairs";
+    public static final String THATCH_BLOCK_ROOF = "thatch_roof";
+    public static final String THATCH_BLOCK_SLOPE = "thatch_slope";
+    public static final String STRAW_BLOCK = "straw_block";
+    public static final String HAY_PATH = "hay_path";
+//    public static final String OAK_LEAVES_PATH = "oak_leaves_path";
 
     // Concrete Frames
     public static final String OAK_CONCRETE_FRAME = "oak_concrete_frame";

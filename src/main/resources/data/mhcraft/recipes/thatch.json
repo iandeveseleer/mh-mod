@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "minecraft:dirt"
+    },
+    {
+      "item": "mhcraft:straw_block"
+    },
+    {
+      "item": "mhcraft:straw_block"
+    }
+],
+  "result": {
+    "item": "mhcraft:thatch"
+  }
+}

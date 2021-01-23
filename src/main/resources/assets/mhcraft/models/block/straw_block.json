@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "mhcraft:block/straw_block_top",
+    "side": "mhcraft:block/straw_block_side"
+  }
+}

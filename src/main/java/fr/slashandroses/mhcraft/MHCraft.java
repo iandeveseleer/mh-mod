@@ -1,12 +1,10 @@
 package fr.slashandroses.mhcraft;
 
-import fr.slashandroses.mhcraft.common.block.VegetableBlock;
+import fr.slashandroses.mhcraft.common.block.BlockVegetable;
 import fr.slashandroses.mhcraft.common.item.SeedItem;
 import fr.slashandroses.mhcraft.common.recipe.GlassCutterRecipe;
 import fr.slashandroses.mhcraft.registry.BlockRegistry;
-import fr.slashandroses.mhcraft.registry.ContainerRegistry;
 import fr.slashandroses.mhcraft.registry.ItemRegistry;
-import io.netty.util.internal.StringUtil;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.client.itemgroup.FabricItemGroupBuilder;
 import net.fabricmc.fabric.api.client.screenhandler.v1.ScreenRegistry;
@@ -23,7 +21,6 @@ import net.minecraft.screen.ScreenHandlerType;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
 import net.minecraft.util.registry.Registry;
-import org.apache.commons.lang3.StringUtils;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -37,6 +34,7 @@ public class MHCraft implements ModInitializer {
     public static RecipeSerializer<GlassCutterRecipe> GLASSCUTTING;
     public static List<Block> withTransparancyBlocks = new ArrayList<>();
     public static List<Block> plantsBlocks = new ArrayList<>();
+    public static List<Block> leavesBlocks = new ArrayList<>();
 
     @Override
     public void onInitialize() {
@@ -61,7 +59,7 @@ public class MHCraft implements ModInitializer {
         return item;
     }
 
-    public static Block registerWithTransparencyBlocks(String blockName, Block item) {
+    public static Block registerWithTransparencyBlock(String blockName, Block item) {
         withTransparancyBlocks.add(item);
         Registry.register(Registry.BLOCK, new Identifier(MHConstants.NAMESPACE, blockName), item);
         Registry.register(Registry.ITEM, new Identifier(MHConstants.NAMESPACE, blockName), new BlockItem(item, new Item.Settings().group(MHCRAFT_BLOCKS_GROUP)));
@@ -69,10 +67,18 @@ public class MHCraft implements ModInitializer {
         return item;
     }
 
+    public static Block registerLeavesBlock(String blockName, Block item) {
+        leavesBlocks.add(item);
+        Registry.register(Registry.BLOCK, new Identifier(MHConstants.NAMESPACE, blockName), item);
+        Registry.register(Registry.ITEM, new Identifier(MHConstants.NAMESPACE, blockName), new BlockItem(item, new Item.Settings().group(MHCRAFT_PLANTS_GROUP)));
+        System.out.printf("[MHCraft] Registering %s leave block%n", blockName);
+        return item;
+    }
+
     public static Item registerItem(String itemName, Item item) {
         Registry.register(Registry.ITEM, new Identifier(MHConstants.NAMESPACE, itemName), item);
         if (item instanceof SeedItem) {
-            VegetableBlock block = (VegetableBlock) ((SeedItem) item).getBlock();
+            BlockVegetable block = (BlockVegetable) ((SeedItem) item).getBlock();
             block.setSeedsItem(item);
         }
         System.out.printf("[MHCraft] Registering %s item%n", item);

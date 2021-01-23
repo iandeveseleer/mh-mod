@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_column",
+  "textures": {
+    "end": "mhcraft:block/thatch_top",
+    "side": "mhcraft:block/thatch_side"
+  }
+}

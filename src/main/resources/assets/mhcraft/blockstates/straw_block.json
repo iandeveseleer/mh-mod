@@ -1,0 +1,16 @@
+{
+  "variants": {
+    "axis=y": {
+      "model": "mhcraft:block/straw_block"
+    },
+    "axis=z": {
+      "model": "mhcraft:block/straw_block",
+      "x": 90
+    },
+    "axis=x": {
+      "model": "mhcraft:block/straw_block",
+      "x": 90,
+      "y": 90
+    }
+  }
+}

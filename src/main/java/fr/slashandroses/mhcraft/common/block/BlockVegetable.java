@@ -19,7 +19,7 @@ import net.minecraft.util.shape.VoxelShape;
 import net.minecraft.world.BlockView;
 import net.minecraft.world.World;
 
-public class VegetableBlock extends CropBlock {
+public class BlockVegetable extends CropBlock {
 
     private Item seed;
 
@@ -35,7 +35,7 @@ public class VegetableBlock extends CropBlock {
                     Block.createCuboidShape(0.0D, 0.0D, 0.0D, 16.0D, 9.0D, 16.0D)
             };
 
-    public VegetableBlock(Settings settings) {
+    public BlockVegetable(Settings settings) {
         super(settings);
     }
 

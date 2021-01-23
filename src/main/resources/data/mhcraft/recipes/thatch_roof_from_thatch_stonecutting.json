@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "mhcraft:thatch"
+  },
+  "result": "mhcraft:thatch_roof",
+  "count": 1
+}

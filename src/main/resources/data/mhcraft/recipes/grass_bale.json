@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "###",
+    "###",
+    "###"
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "minecraft:grass"
+    }
+  },
+  "result":
+  {
+    "item": "mhcraft:grass_bale",
+    "count": 1
+  }
+}

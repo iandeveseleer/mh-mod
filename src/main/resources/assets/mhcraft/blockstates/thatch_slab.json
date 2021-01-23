@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mhcraft:block/thatch/thatch_slab"
+    },
+    "type=double": {
+      "model": "mhcraft:block/thatch/thatch"
+    },
+    "type=top": {
+      "model": "mhcraft:block/thatch/thatch_slab_top"
+    }
+  }
+}

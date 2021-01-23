@@ -145,6 +145,7 @@ def add_block(name):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Make a block')
     parser.add_argument('name', help='CamelCase name of the block to add')
+    parser.add_argument('type', help='Type of block to add')
     args = parser.parse_args()
 
     print(f'Adding block {args.name}')

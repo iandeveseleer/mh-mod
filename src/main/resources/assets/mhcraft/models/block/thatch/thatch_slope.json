@@ -1,0 +1,7 @@
+{
+  "parent": "mhcraft:block/slope",
+  "textures": {
+    "top": "mhcraft:block/thatch_top",
+    "side": "mhcraft:block/thatch_side"
+  }
+}

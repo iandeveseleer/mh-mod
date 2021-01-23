@@ -1,0 +1,7 @@
+{
+  "parent": "mhcraft:block/layered/height7",
+  "textures": {
+    "side": "minecraft:block/oak_leaves",
+    "end": "minecraft:block/oak_leaves"
+  }
+}

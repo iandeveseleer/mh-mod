@@ -1,0 +1,7 @@
+{
+  "parent": "mhcraft:block/layered/height6",
+  "textures": {
+    "side": "minecraft:block/hay_block_top",
+    "end": "minecraft:block/hay_block_top"
+  }
+}
