@@ -18,9 +18,10 @@
   "block.mhcraft.slate_block": "Bloc d'ardoises",
   "block.mhcraft.slate_stairs": "Escalier en ardoises",
   "block.mhcraft.slate_slab": "Dalle en ardoises",
-  "block.mhcraft.red_slate_block": "Bloc de tuiles rouges",
-  "block.mhcraft.red_slate_stairs": "Escalier en tuiles rouges",
-  "block.mhcraft.red_slate_slab": "Dalle en tuiles rouges",
+  "block.mhcraft.tile_block": "Bloc de tuiles rouges",
+  "block.mhcraft.tile_stairs": "Escalier en tuiles rouges",
+  "block.mhcraft.tile_roof": "Toiture en tuiles rouges",
+  "block.mhcraft.tile_slab": "Dalle en tuiles rouges",
   "block.mhcraft.gray_bricks": "Briques grises",
   "block.mhcraft.gray_bricks_stairs": "Escalier en briques grises",
   "block.mhcraft.gray_bricks_slab": "Dalle en briques grises",
@@ -41,6 +42,7 @@
   "block.mhcraft.thatch_stairs": "Escalier en chaume",
   "block.mhcraft.thatch_roof": "Toiture en chaume",
   "block.mhcraft.hay_path": "Couche de paille",
+  "block.mhcraft.straw_path": "Couche de paille",
   "block.mhcraft.oak_leaves_path": "Couche de feuilles de chêne",
 
   "block.mhcraft.iron_bars_door": "Porte en barreaux de fer",
@@ -48,8 +50,7 @@
   "block.mhcraft.glasscutter": "Coupe verre",
 
   "item.mhcraft.slate": "Ardoise",
-  "item.mhcraft.red_slate": "Tuile rouge",
-  "item.mhcraft.gray_brick": "Brique grise",
-  "item.mhcraft.marijuana_seeds": "Graine de cannabis",
-  "item.mhcraft.marijuana": "Marijuana"
+  "item.mhcraft.clay_tile": "Tuile en argile",
+  "item.mhcraft.tile": "Tuile rouge",
+  "item.mhcraft.gray_brick": "Brique grise"
 }

@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "mhcraft:tile_block"
+  },
+  "result": "mhcraft:tile_stairs",
+  "count": 1
+}

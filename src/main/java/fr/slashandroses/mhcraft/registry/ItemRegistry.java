@@ -12,10 +12,9 @@ import static fr.slashandroses.mhcraft.MHCraft.*;
 public class ItemRegistry {
 
     public static Item SLATE = new Item(new FabricItemSettings().group(MHCRAFT_ITEMS_GROUP));
-    public static Item RED_SLATE = new Item(new FabricItemSettings().group(MHCRAFT_ITEMS_GROUP));
+    public static Item CLAY_TILE = new Item(new FabricItemSettings().group(MHCRAFT_ITEMS_GROUP));
+    public static Item TILE = new Item(new FabricItemSettings().group(MHCRAFT_ITEMS_GROUP));
     public static Item GRAY_BRICK = new Item(new FabricItemSettings().group(MHCRAFT_ITEMS_GROUP));
-    public static SeedItem MARIJUANA_SEED = new SeedItem(BlockRegistry.MARIJUANA_CROP, new FabricItemSettings().group(MHCRAFT_PLANTS_GROUP));
-    public static Item MARIJUANA = new Item(new FabricItemSettings().group(MHCRAFT_PLANTS_GROUP));
     public static Item EN_BERLINE_DISC = new DiscItem(13, SoundRegistry.EN_BERLINE_SOUND_EVENT, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE).group(MHCRAFT_ITEMS_GROUP));
     public static Item NAZARETH_DISC = new DiscItem(13, SoundRegistry.NAZARETH_SOUND_EVENT, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE).group(MHCRAFT_ITEMS_GROUP));
     public static Item BLEUCADAVRE_DISC = new DiscItem(13, SoundRegistry.BLEUCADAVRE_SOUND_EVENT, new FabricItemSettings().maxCount(1).rarity(Rarity.RARE).group(MHCRAFT_ITEMS_GROUP));
@@ -23,11 +22,9 @@ public class ItemRegistry {
 
     public static void init() {
         registerItem(ItemNames.SLATE, SLATE);
-        registerItem(ItemNames.RED_SLATE, RED_SLATE);
+        registerItem(ItemNames.CLAY_TILE, CLAY_TILE);
+        registerItem(ItemNames.TILE, TILE);
         registerItem(ItemNames.GRAY_BRICK, GRAY_BRICK);
-        registerItem(ItemNames.MARIJUANA_SEEDS, MARIJUANA_SEED);
-        registerItem(ItemNames.MARIJUANA, MARIJUANA);
-
         registerItem(ItemNames.EN_BERLINE_DISC, EN_BERLINE_DISC);
         registerItem(ItemNames.NAZARETH_DISC, NAZARETH_DISC);
         registerItem(ItemNames.BLEUCADAVRE_DISC, BLEUCADAVRE_DISC);

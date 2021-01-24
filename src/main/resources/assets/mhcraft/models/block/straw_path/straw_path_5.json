@@ -1,0 +1,7 @@
+{
+  "parent": "mhcraft:block/layered/height5",
+  "textures": {
+    "side": "mhcraft:block/straw_block_top",
+    "end": "mhcraft:block/straw_block_top"
+  }
+}

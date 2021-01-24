@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "SS",
+    "SS"
+  ],
+  "key": {
+    "S": {
+      "item": "mhcraft:tile"
+    }
+  },
+  "result": {
+    "item": "mhcraft:tile_block",
+    "count": 1
+  }
+}

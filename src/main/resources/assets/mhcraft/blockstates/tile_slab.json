@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "mhcraft:block/tile_slab"
+    },
+    "type=double": {
+      "model": "mhcraft:block/tile_block"
+    },
+    "type=top": {
+      "model": "mhcraft:block/tile_slab_top"
+    }
+  }
+}
