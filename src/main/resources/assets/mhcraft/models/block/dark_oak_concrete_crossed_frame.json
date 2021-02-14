@@ -1,7 +1,0 @@
-{
-    "parent": "mhcraft:block/crossed_frame",
-    "textures": {
-        "log": "minecraft:block/dark_oak_log",
-        "concrete": "minecraft:block/white_concrete_powder"
-    }
-}

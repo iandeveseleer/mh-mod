@@ -1,0 +1,328 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "rolls": 1.0,
+      "bonus_rolls": 0.0,
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:alternatives",
+              "children": [
+                {
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "1"
+                      }
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },
+                {
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "2"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 2.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },
+                {
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "3"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 3.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "4"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 4.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "5"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 5.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "6"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 6.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "7"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 7.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "8"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 8.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "9"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 9.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "10"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 10.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "11"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 11.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "12"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 12.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "13"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 13.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "14"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 14.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "15"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 15.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                },{
+                  "type": "minecraft:item",
+                  "conditions": [
+                    {
+                      "condition": "minecraft:block_state_property",
+                      "block": "mhcraft:straw_path",
+                      "properties": {
+                        "path_layers": "16"
+                      }
+                    }
+                  ],
+                  "functions": [
+                    {
+                      "function": "minecraft:set_count",
+                      "count": 16.0,
+                      "add": false
+                    }
+                  ],
+                  "name": "mhcraft:straw_path"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:entity_properties",
+          "predicate": {},
+          "entity": "this"
+        }
+      ]
+    }
+  ]
+}

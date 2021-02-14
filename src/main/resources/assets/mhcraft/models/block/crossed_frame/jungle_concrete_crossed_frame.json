@@ -1,0 +1,7 @@
+{
+    "parent": "mhcraft:block/crossed_frame/crossed_frame",
+    "textures": {
+        "log": "minecraft:block/jungle_log",
+        "concrete": "minecraft:block/white_concrete_powder"
+    }
+}

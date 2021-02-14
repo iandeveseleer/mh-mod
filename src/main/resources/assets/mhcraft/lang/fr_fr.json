@@ -1,5 +1,7 @@
 {
   "itemGroup.mhcraft.blocks": "Blocs MHCraft",
+  "itemGroup.mhcraft.tools": "Outils MHCraft",
+  "itemGroup.mhcraft.doors": "Portes et portillons MHCraft",
   "itemGroup.mhcraft.items": "Objets MHCraft",
   "itemGroup.mhcraft.plants": "Plantes MHCraft",
 
@@ -10,6 +12,7 @@
 
   "block.mhcraft.charcoal_block": "Bloc de charbon de bois",
   "block.mhcraft.flint_block": "Bloc de silex",
+  "block.mhcraft.schist_block": "Bloc de schiste",
   "block.mhcraft.sugar_block": "Bloc de sucre",
   "block.mhcraft.sugar_cane_block": "Bloc de canne à sucre",
   "block.mhcraft.glowstone_lamp": "Lampe de pierre lumineuse",
@@ -18,10 +21,13 @@
   "block.mhcraft.slate_block": "Bloc d'ardoises",
   "block.mhcraft.slate_stairs": "Escalier en ardoises",
   "block.mhcraft.slate_slab": "Dalle en ardoises",
+  "block.mhcraft.slate_roof": "Toiture en ardoises",
+  "block.mhcraft.slate_oak_shingle": "Bardeau en ardoises",
   "block.mhcraft.tile_block": "Bloc de tuiles rouges",
   "block.mhcraft.tile_stairs": "Escalier en tuiles rouges",
-  "block.mhcraft.tile_roof": "Toiture en tuiles rouges",
   "block.mhcraft.tile_slab": "Dalle en tuiles rouges",
+  "block.mhcraft.tile_roof": "Toiture en tuiles rouges",
+  "block.mhcraft.tile_oak_shingle": "Bardeau en tuiles rouges",
   "block.mhcraft.gray_bricks": "Briques grises",
   "block.mhcraft.gray_bricks_stairs": "Escalier en briques grises",
   "block.mhcraft.gray_bricks_slab": "Dalle en briques grises",
@@ -38,12 +44,13 @@
   "block.mhcraft.grass_bale": "Ballot d'herbe",
   "block.mhcraft.straw_block": "Bloc de paille",
   "block.mhcraft.thatch": "Chaume",
-  "block.mhcraft.thatch_slab": "Dalle en chaume",
   "block.mhcraft.thatch_stairs": "Escalier en chaume",
+  "block.mhcraft.thatch_slab": "Dalle en chaume",
   "block.mhcraft.thatch_roof": "Toiture en chaume",
+  "block.mhcraft.thatched_oak_shingle": "Bardeau en chaume",
   "block.mhcraft.hay_path": "Couche de paille",
   "block.mhcraft.straw_path": "Couche de paille",
-  "block.mhcraft.oak_leaves_path": "Couche de feuilles de chêne",
+  "block.mhcraft.thatch_path": "Couche de chaume",
 
   "block.mhcraft.iron_bars_door": "Porte en barreaux de fer",
 

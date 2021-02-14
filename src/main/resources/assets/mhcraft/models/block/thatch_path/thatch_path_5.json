@@ -1,0 +1,7 @@
+{
+  "parent": "mhcraft:block/layered/height5",
+  "textures": {
+    "side": "mhcraft:block/thatch_top",
+    "end": "mhcraft:block/thatch_top"
+  }
+}

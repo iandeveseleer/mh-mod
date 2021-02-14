@@ -13,13 +13,13 @@ public class GenerationRegistry {
             .configure(new OreFeatureConfig(
                     OreFeatureConfig.Rules.BASE_STONE_OVERWORLD,
                     BlockRegistry.SCHIST_BLOCK.getDefaultState(),
-                    7)) // vein size
+                    20)) // vein size
             .decorate(Decorator.RANGE.configure(new RangeDecoratorConfig(
-                    0, // bottom offset
+                    15, // bottom offset
                     0, // min y level
-                    127))) // max y level
+                    120))) // max y level
             .spreadHorizontally()
-            .repeat(10); // number of veins per chunk
+            .repeat(15); // number of veins per chunk
 
 
     public static void init() {

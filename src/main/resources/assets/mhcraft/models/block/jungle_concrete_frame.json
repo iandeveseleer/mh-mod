@@ -1,7 +1,0 @@
-{
-    "parent": "mhcraft:block/frame",
-    "textures": {
-        "log": "minecraft:block/jungle_log",
-        "concrete": "minecraft:block/white_concrete_powder"
-    }
-}

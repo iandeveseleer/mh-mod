@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "mhcraft:block/oak_concrete_crossed_frame" }
+        "": { "model": "mhcraft:block/crossed_frame/oak_concrete_crossed_frame" }
     }
 }

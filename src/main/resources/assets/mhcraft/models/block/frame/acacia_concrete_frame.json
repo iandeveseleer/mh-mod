@@ -1,0 +1,7 @@
+{
+    "parent": "mhcraft:block/frame/frame",
+    "textures": {
+        "log": "minecraft:block/acacia_log",
+        "concrete": "minecraft:block/white_concrete_powder"
+    }
+}

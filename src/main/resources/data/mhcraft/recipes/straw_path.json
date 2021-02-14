@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern":
+  [
+    "##"
+  ],
+  "key":
+  {
+    "#":
+    {
+      "item": "mhcraft:straw_block"
+    }
+  },
+  "result":
+  {
+    "item": "mhcraft:straw_path",
+    "count": 32
+  }
+}

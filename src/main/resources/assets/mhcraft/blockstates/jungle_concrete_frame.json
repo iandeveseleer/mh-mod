@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "mhcraft:block/jungle_concrete_frame" }
+        "": { "model": "mhcraft:block/frame/jungle_concrete_frame" }
     }
 }

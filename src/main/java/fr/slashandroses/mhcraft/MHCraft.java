@@ -28,11 +28,7 @@ import net.minecraft.util.registry.BuiltinRegistries;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.util.registry.RegistryKey;
 import net.minecraft.world.gen.GenerationStep;
-import net.minecraft.world.gen.decorator.Decorator;
-import net.minecraft.world.gen.decorator.RangeDecoratorConfig;
 import net.minecraft.world.gen.feature.ConfiguredFeature;
-import net.minecraft.world.gen.feature.Feature;
-import net.minecraft.world.gen.feature.OreFeatureConfig;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -43,6 +39,8 @@ public class MHCraft implements ModInitializer {
     public static final ItemGroup MHCRAFT_BLOCKS_GROUP = FabricItemGroupBuilder.build(new Identifier(MHConstants.NAMESPACE, "blocks"), () -> new ItemStack(BlockRegistry.PURE_GLOWSTONE_LAMP));
     public static final ItemGroup MHCRAFT_ITEMS_GROUP = FabricItemGroupBuilder.build(new Identifier(MHConstants.NAMESPACE, "items"), () -> new ItemStack(ItemRegistry.SLATE));
     public static final ItemGroup MHCRAFT_PLANTS_GROUP = FabricItemGroupBuilder.build(new Identifier(MHConstants.NAMESPACE, "plants"), () -> new ItemStack(Blocks.OAK_LEAVES));
+    public static final ItemGroup MHCRAFT_DOORS_GROUP = FabricItemGroupBuilder.build(new Identifier(MHConstants.NAMESPACE, "doors"), () -> new ItemStack(BlockRegistry.IRON_BARS_DOOR));
+    public static final ItemGroup MHCRAFT_TOOLS_GROUP = FabricItemGroupBuilder.build(new Identifier(MHConstants.NAMESPACE, "tools"), () -> new ItemStack(BlockRegistry.GLASSCUTTER));
     public static RecipeSerializer<GlassCutterRecipe> GLASSCUTTING;
     public static List<Block> withTransparancyBlocks = new ArrayList<>();
     public static List<Block> plantsBlocks = new ArrayList<>();
@@ -59,8 +57,13 @@ public class MHCraft implements ModInitializer {
     }
 
     public static Block registerBlock(String blockName, Block item) {
+        registerBlock(blockName, item, MHCRAFT_BLOCKS_GROUP);
+        return item;
+    }
+
+    public static Block registerBlock(String blockName, Block item, ItemGroup itemGroup) {
         Registry.register(Registry.BLOCK, new Identifier(MHConstants.NAMESPACE, blockName), item);
-        Registry.register(Registry.ITEM, new Identifier(MHConstants.NAMESPACE, blockName), new BlockItem(item, new Item.Settings().group(MHCRAFT_BLOCKS_GROUP)));
+        Registry.register(Registry.ITEM, new Identifier(MHConstants.NAMESPACE, blockName), new BlockItem(item, new Item.Settings().group(itemGroup)));
         System.out.printf("[MHCraft] Registering %s block%n", blockName);
         return item;
     }
@@ -72,6 +75,18 @@ public class MHCraft implements ModInitializer {
         return item;
     }
 
+    public static Block registerDoorBlock(String blockName, Block item) {
+        withTransparancyBlocks.add(item);
+        registerBlock(blockName, item, MHCRAFT_DOORS_GROUP);
+        return item;
+    }
+
+    public static Block registerToolBlock(String blockName, Block item) {
+        withTransparancyBlocks.add(item);
+        registerBlock(blockName, item, MHCRAFT_TOOLS_GROUP);
+        return item;
+    }
+
     public static Block registerWithTransparencyBlock(String blockName, Block item) {
         withTransparancyBlocks.add(item);
         registerBlock(blockName, item);
@@ -80,9 +95,7 @@ public class MHCraft implements ModInitializer {
 
     public static Block registerLeavesBlock(String blockName, Block item) {
         leavesBlocks.add(item);
-        Registry.register(Registry.BLOCK, new Identifier(MHConstants.NAMESPACE, blockName), item);
-        Registry.register(Registry.ITEM, new Identifier(MHConstants.NAMESPACE, blockName), new BlockItem(item, new Item.Settings().group(MHCRAFT_PLANTS_GROUP)));
-        System.out.printf("[MHCraft] Registering %s leave block%n", blockName);
+        registerBlock(blockName, item, MHCRAFT_PLANTS_GROUP);
         return item;
     }
 

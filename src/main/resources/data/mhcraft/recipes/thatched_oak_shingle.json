@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "tile_shingle",
+  "pattern": [
+    "I  ",
+    "SI ",
+    "PSI"
+  ],
+  "key": {
+    "P": {
+      "item": "minecraft:oak_planks"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "I": {
+      "item": "mhcraft:thatch_path"
+    }
+  },
+  "result": {
+    "count": 8,
+    "item": "mhcraft:thatched_oak_shingle"
+  }
+}

@@ -1,5 +1,5 @@
 {
     "variants": {
-        "": { "model": "mhcraft:block/acacia_concrete_frame" }
+        "": { "model": "mhcraft:block/frame/acacia_concrete_frame" }
     }
 }
